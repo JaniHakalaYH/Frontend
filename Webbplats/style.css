@@ -7,10 +7,6 @@
 body{
     width: 100%;
     min-height: 100vh;
-    background-image: url(images/Background3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 .homepageimg {
   width: 150px;
@@ -19,7 +15,7 @@ body{
   margin-right: 30px;
   }
 .presentationimg{
-  width: 150px;
+  width: 300px;
   border-radius: 10px;
   float: left;
   margin: 10px;
@@ -71,4 +67,25 @@ li {
   color: black;
   font-style: normal;
   margin: 5px;
+}
+.contact-text{
+  text-align: center;
+  font-size: 25px;
+  color: darkmagenta;
+  margin-bottom: 40px;
+}
+footer{
+  position : absolute;
+  bottom : 0;
+  left: 35%;
+  height : 40px;
+  margin-top : 40px;
+}
+hr{
+  display: none;
+}
+iframe{
+  margin:auto;
+  display:block;
+  margin-top: 100px;
 }
