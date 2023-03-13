@@ -1,12 +1,32 @@
-img {
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap%22");
+* {
+    font-family: "Roboto";
+    padding: 0;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(images/Background3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.homepageimg {
   width: 150px;
   border-radius: 100px;
   float: left;
   margin-right: 30px;
   }
+.presentationimg{
+  width: 150px;
+  border-radius: 20px;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
 h1 {
-  
-  font-family: 'Gill Sans', sans-serif;
+
   color: purple;
   font-size: 50px;
   font-style: oblique;
@@ -20,18 +40,15 @@ h2 {
   font-weight: 400;
   }
 .presentation {
-  font-family:'Gill Sans', sans-serif;
   font-size: 25px;
   color: darkmagenta;
 }
 .projects {
-  font-family:'Gill Sans', sans-serif;
   font-style: oblique;
   font-size: 15px;
   color: darkmagenta;
 }
 a {
-  font-family: 'Gill Sans', sans-serif;
   color: black;
   text-decoration: none;
   font-size: 25px;
@@ -40,8 +57,9 @@ a:hover {
   color: dodgerblue;
 }
 li {
-  font-family:'Gill Sans', sans-serif;
+  margin-top: 5px;
   font-size: 25px;
   color: darkmagenta;
   font-style: oblique;
+  width: 100%;
 }
