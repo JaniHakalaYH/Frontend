@@ -1,40 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap%22");
 * {
-    font-family: "Roboto";
-    padding: 0;
-    margin: 0;
+  font-family: "Roboto";
+  padding: 0;
+  margin: 0;
 }
-body{
-    width: 100%;
-    min-height: 100vh;
+body {
+  width: 100%;
+  min-height: 100vh;
 }
 .homepageimg {
   width: 150px;
   border-radius: 15px;
   float: left;
-  margin-right: 30px;
-  }
-.presentationimg{
-  width: 300px;
+  margin: 30px;
+}
+.presentationimg {
+  width: 200px;
   border-radius: 10px;
   float: left;
   margin: 10px;
 }
 h1 {
-
   color: purple;
   font-size: 50px;
   font-style: oblique;
   font-weight: 400;
   margin-top: 10px;
-  }
+}
 h2 {
   color: purple;
   font-size: 30px;
   font-style: oblique;
   font-weight: 400;
   margin: 10px;
-  }
+}
 .presentation {
   margin: 25px;
   font-size: 25px;
@@ -55,37 +54,38 @@ a:hover {
   color: dodgerblue;
 }
 li {
-  float:left;
+  float: left;
   padding-bottom: 10px;
   font-size: 25px;
   color: darkmagenta;
   font-style: oblique;
   width: 100%;
 }
-.project-text{
+.project-text {
   font-size: 15px;
   color: black;
   font-style: normal;
   margin: 5px;
 }
-.contact-text{
+.contact-text {
   text-align: center;
   font-size: 25px;
   color: darkmagenta;
   margin-bottom: 40px;
 }
-footer{
-  position : absolute;
-  bottom : 0;
-  left: 35%;
-  height : 40px;
-  margin-top : 40px;
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 30%;
+  height: 40px;
+  margin-top: 40px;
 }
-hr{
+hr {
   display: none;
 }
-iframe{
-  margin:auto;
-  display:block;
-  margin-top: 100px;
+iframe {
+  margin: auto;
+  display: block;
+  width: 400px;
+  height: 400px;
 }
